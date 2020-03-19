@@ -1,0 +1,70 @@
+.grid-container{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    background-color: thistle;
+    height: 1000px;
+    grid-gap: 30px;
+    grid-auto-rows: 100px,auto;
+}
+
+.item1{
+    background-color: whitesmoke;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    text-align: center;
+    grid-column: 1/4;
+    margin: 30px;
+}
+
+.item2{
+    background-color: whitesmoke;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    text-align: center;
+    margin: 30px;
+    grid-row: 2/5;
+}
+
+.item3{
+    background-color: whitesmoke;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    text-align: center;
+    margin: 30px;
+    grid-column: 2/4;
+    grid-row: 2/5;
+}
+
+.item4{
+    background-color: thistle;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    text-align: center;
+    margin: 30px;
+}
+
+.item5{
+    background-color: thistle;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    text-align: center;
+    margin: 30px;
+}
+
+.item6{
+    background-color: whitesmoke;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    text-align: center; 
+    margin: 30px;
+    grid-column: 1/4;
+}
+
+
+
